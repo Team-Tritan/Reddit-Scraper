@@ -1,4 +1,4 @@
-import Scraper from "./lib/scraper";
+import Scraper from "./lib/RedditScraper";
 
 /**
  * @Args
