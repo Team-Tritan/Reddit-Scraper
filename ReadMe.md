@@ -16,7 +16,7 @@ Steal all the yaoi/hentai from reddit that you want! lol
   Example:
 
   ```
-  new Scraper("YaoiNSFW", "hot");
+  new RedditScraper("YaoiNSFW", "hot");
   ```
 
 ## Running:
