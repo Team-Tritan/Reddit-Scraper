@@ -23,7 +23,10 @@ async function stealYaoi(subreddit: string, type: string) {
 
       console.log(`Downloading ${imageUrls[i]} as ${name}.`);
 
-      fs.promises.mkdir("./tmp", { recursive: true }).catch(console.error);
+      await fs.promises
+        .mkdir("./tmp", { recursive: true })
+        .catch(console.error);
+
       fs.writeFileSync(`./tmp/${name}.jpg`, imageData);
     }
 
