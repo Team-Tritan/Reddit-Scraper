@@ -1,4 +1,4 @@
-import Scraper from "./lib/RedditScraper";
+import RedditScraper from "./lib/RedditScraper";
 
 /**
  * @Args
@@ -6,4 +6,4 @@ import Scraper from "./lib/RedditScraper";
  * [2] reddit UI filter type (hot, new, top, etc)
  */
 
-new Scraper("YaoiNSFW", "hot");
+new RedditScraper("YaoiNSFW", "hot");
