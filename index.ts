@@ -1,4 +1,4 @@
-import init from "./src/stealer";
+import Scraper from "./lib/scraper";
 
 /**
  * @Args
@@ -6,4 +6,4 @@ import init from "./src/stealer";
  * [2] reddit UI filter type (hot, new, top, etc)
  */
 
-init("YaoiNSFW", "hot");
+new Scraper("YaoiNSFW", "hot");
