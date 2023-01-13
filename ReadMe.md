@@ -24,3 +24,7 @@ Steal all the yaoi/hentai from reddit that you want! lol
 - `yarn start` or
 - `npm start` or
 - `ts-node index.ts`
+
+## Viewing Images:
+
+- Go into tmp folder, do as you wish from there.
