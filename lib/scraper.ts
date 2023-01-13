@@ -3,9 +3,6 @@ import fs from "fs";
 
 class RedditScraper {
   constructor(subreddit: string, type: string) {
-    subreddit = subreddit;
-    type = type;
-
     this.init(subreddit, type);
   }
 
